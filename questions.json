@@ -1,0 +1,33 @@
+[
+  {
+    "question": "What does DOM stand for?",
+    "choices": [
+      "Document Object Model",
+      "Data Object Management",
+      "Dynamic Online Media",
+      "Document Order Manager"
+    ],
+    "correct": "Document Object Model",
+    "category": "Basics",
+    "chapter": "DOM"
+  },
+  {
+    "question": "Which HTML tag includes JavaScript?",
+    "choices": ["<js>", "<script>", "<javascript>", "<code>"],
+    "correct": "<script>",
+    "category": "Basics",
+    "chapter": "HTML"
+  },
+  {
+    "question": "Explain event delegation in JavaScript.",
+    "choices": [
+      "A way to handle events at a parent level",
+      "Creating events on the fly",
+      "Delegating tasks to web workers",
+      "None of the above"
+    ],
+    "correct": "A way to handle events at a parent level",
+    "category": "Advanced",
+    "chapter": "Events"
+  }
+]

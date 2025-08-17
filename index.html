@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pro Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- START SCREEN -->
+<div id="start-screen" class="overlay">
+  <h1>Welcome to Pro Quiz</h1>
+  <input id="username" placeholder="Enter your name" />
+  <select id="category-select">
+    <option value="all">All Categories</option>
+  </select>
+  <select id="chapter-select">
+    <option value="all">All Chapters</option>
+  </select>
+  <button id="start-btn">Start Quiz</button>
+</div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="quiz-screen" class="quiz-container hidden">
+    <div class="header">
+      <div id="progress">Question <span id="current-num">1</span> / <span id="total-num">1</span></div>
+      <div id="timer">⏱ <span id="time">15</span>s</div>
+    </div>
+    <div id="question">…</div>
+    <ul id="choices" role="listbox"></ul>
+    <button id="next-btn" disabled>Next</button>
+    <div id="result" aria-live="polite"></div>
+  </div>
+
+  <!-- RESULT + LEADERBOARD -->
+  <div id="end-screen" class="overlay hidden">
+    <h2>Quiz Finished!</h2>
+    <div id="final-score"></div>
+    <button id="restart-btn">Restart</button>
+  </div>
+
+  <!-- Confetti lib (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
