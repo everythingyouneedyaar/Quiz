@@ -1,33 +1,848 @@
 [
   {
-    "question": "What does DOM stand for?",
+    "question": "A boy walks 15 m north, turns right and walks 20 m. Again, he turns right and walks 15 m. Finally, he turns to his left and moves 20 m. What is the distance now from his original position?",
     "choices": [
-      "Document Object Model",
-      "Data Object Management",
-      "Dynamic Online Media",
-      "Document Order Manager"
+      "40 m",
+      "46 m",
+      "45 m"
     ],
-    "correct": "Document Object Model",
-    "category": "Basics",
-    "chapter": "DOM"
+    "correct": "40 m",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
   },
   {
-    "question": "Which HTML tag includes JavaScript?",
-    "choices": ["<js>", "<script>", "<javascript>", "<code>"],
-    "correct": "<script>",
-    "category": "Basics",
-    "chapter": "HTML"
+    "question": "Manoj starts from point A and drives X km towards the south and then turns left and drives Y km. He then takes a right turn and drives for 4 km to reach point D. If Manoj drove a total of 17 km between Points A and D, and both X and Y are perfect squares where X > Y, then what is the value of X?",
+    "choices": [
+      "4",
+      "11",
+      "5",
+      "9"
+    ],
+    "correct": "9",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
   },
   {
-    "question": "Explain event delegation in JavaScript.",
+    "question": "Stanley starts cycling from Point A. He cycles X km towards the west and then turns right and cycles 3 km. He again turns right and cycles for X+1 km. He again turns right and cycles for 2X+1 km. He takes a final right turn and cycles for 1 km to stop at Point B. Point B is 6 km south of Point A. What is the value of X?",
     "choices": [
-      "A way to handle events at a parent level",
-      "Creating events on the fly",
-      "Delegating tasks to web workers",
-      "None of the above"
+      "9",
+      "3",
+      "4",
+      "5"
     ],
-    "correct": "A way to handle events at a parent level",
-    "category": "Advanced",
-    "chapter": "Events"
+    "correct": "4",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Q is to the east of S. E is to the south of S. P is to the north-east of Q and north of T. If T is to the south-east of Q, what is the position of S with respect to T? (All positions are arranged in GRID pattern)",
+    "choices": [
+      "South-east",
+      "South-west",
+      "West",
+      "North-west"
+    ],
+    "correct": "North-west",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Pooja drives 4 km towards east from point A. She takes a right turn and drives 2 km. Then she takes a left turn and drives 3 km. Again, she takes a left turn and drives 2 km to reach point B. How far and towards which direction should she drive now in order to reach point A again?",
+    "choices": [
+      "7 km towards west",
+      "4 km towards south",
+      "4 km towards east",
+      "5 km towards north"
+    ],
+    "correct": "7 km towards west",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "P is to the north of Q. T is to the east of Q and S is to the east of P. S is to the northeast of T and south-west of R. What is the position of R with respect to Q? (All positions are arranged in GRID pattern)",
+    "choices": [
+      "North-east",
+      "South-west",
+      "East",
+      "South"
+    ],
+    "correct": "North-east",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Param drives 8 km towards the north from point A. He takes a right turn and drives 8 km. Again he takes a right turn and drives 4 km. Finally, he takes a right turn and drives 8 km to reach point B. How far and towards which direction should he drive in order to reach point A again?",
+    "choices": [
+      "5 km towards north",
+      "4 km towards south",
+      "6 km towards east",
+      "3 km towards west"
+    ],
+    "correct": "4 km towards south",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Amsterdam is located to the South of Barcelona. Munich is to the West of Amsterdam. Detroit is to the East of Munich. Toronto is to the South of Detroit and to the SouthEast of Barcelona. What is the position of Amsterdam with respect to Detroit? (All positions are arranged in GRID pattern)",
+    "choices": [
+      "West",
+      "North",
+      "South",
+      "East"
+    ],
+    "correct": "West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Manohar cycles X km towards west and then turns right and cycles Y km to reach his office. Now, the shortest distance between the starting point and his office is 13 km. What can be the value of X and Y, respectively, (in km)?",
+    "choices": [
+      "12 and 5",
+      "8 and 5",
+      "11 and 6",
+      "6 and 7"
+    ],
+    "correct": "12 and 5",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X, from his house, ran 200 steps towards the east and then ran 30 steps after turning to his right to reach a monastery. He then ran 30 steps towards his right and reached a point W. He then turned again towards his right and ran 30 steps. From there, turning towards his right he ran 130 steps. He then turned towards his left and ran 10 steps to reach a bakery. In which direction is the bakery with respect to X's house?",
+    "choices": [
+      "East",
+      "South-East",
+      "North-East",
+      "North"
+    ],
+    "correct": "North-East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Rohit drives 3 km north from point A. He takes a left turn and drives 4 km. Again he takes a left turn and drives 6 km. Finally, he takes a left turn and drives 4 km to reach point B. How far and towards which direction should he drive in order to reach point A again?",
+    "choices": [
+      "4 km towards south",
+      "3 km towards east",
+      "3 km towards north",
+      "2 km towards west"
+    ],
+    "correct": "3 km towards north",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Town Q is to the north of Town P. Town R is to the west of Town Q. Town S is to the north of Town R. Town T is to the east of Town S. What is the position of Town T with respect to Town R? (All positions are arranged in GRID pattern).",
+    "choices": [
+      "East",
+      "South",
+      "North-east",
+      "South-east"
+    ],
+    "correct": "North-east",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Shilpa goes to a park every day for walking. One morning, she started walking from her home and walked 40 km towards the north. Then she turned to the right and walked 60 km. Again, she turned right and walked 40 km. Lastly, she took a left turn and walked 30 km. How far is she from her home?",
+    "choices": [
+      "140 km",
+      "90 km",
+      "100 km",
+      "60 km"
+    ],
+    "correct": "90 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Sona goes to a park every day for walking. One morning, she started walking from her home and walked 40 km towards the north. Then she turned to the right and walked 60 km. Again, she turned right and walked 40 km. Lastly, she took a left turn and walked 60 km. In which direction and how far is she from her home?",
+    "choices": [
+      "East, 90 km",
+      "West, 120 km",
+      "West, 60 km",
+      "East, 120 km"
+    ],
+    "correct": "East, 120 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A person starts from point Z and moves 7 km towards the South. He turns right and moves 5 km, turns right, and moves 3 km, then turns right and moves 1 km. He takes a left turn and moves 4 km to reach point X. How much and in which direction does he need to move now to reach point Z?",
+    "choices": [
+      "4 km South",
+      "4 km East",
+      "4 km West",
+      "6 km East"
+    ],
+    "correct": "4 km East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Aunt Gloria walked out of her house and walked 65 m towards the east. She took a left turn and walked 28 m. Again, she took a left turn and walked 110 m to reach a public library. How far (shortest distance) and in which direction is the library from Aunt Gloria's house?",
+    "choices": [
+      "48 m, North-East",
+      "48 m, North-West",
+      "53 m, North-East",
+      "53 m, North-West"
+    ],
+    "correct": "53 m, North-West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "B is west of E. A is north-west of B. F is north-east of B. D is south-east of F, such that F is north-west of E and D is south-east of E as well. If C is south-west of E, what is the position of A with respect to E? (All positions are arranged in GRID pattern)",
+    "choices": [
+      "South-east",
+      "South-west",
+      "North-east",
+      "North-west"
+    ],
+    "correct": "North-west",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man is standing in the park facing North. He turns to 90° towards the left and walks 40 km. He again takes a 90° turn towards the right and walks 50 km. He takes the next 90° turn towards the right and walks 60 km. Lastly, he takes 90° turn towards the right and walks 50 km. How much distance is he from the starting point?",
+    "choices": [
+      "40 km",
+      "60 km",
+      "50 km",
+      "20 km"
+    ],
+    "correct": "20 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Shashank walks a certain distance, say X m, towards the west, then turns left and walks 35 m, and then turns right and walks 18 m. From there, he turns left and walks 9 m, and then turns left again and walks 60 m. From there, he turns left and walks 9 m, and then turns left again and walks 12 m. He finally turns right and walks 35 m to reach a point that is exactly 10 m to the east of the starting point. What is the value of X?",
+    "choices": [
+      "30",
+      "36",
+      "22",
+      "20"
+    ],
+    "correct": "20",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Shweta starts walking from her office and walks 150m towards the south, then she turns right and walks 80 m, and then she turns left and walks 60m. She finally left and walks 280 m to reach a bank. What is the shortest distance between her office and the bank?",
+    "choices": [
+      "280 m",
+      "290 m",
+      "410 m",
+      "370 m"
+    ],
+    "correct": "410 m",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Sahasra started running from her house towards the north. After 40 meters she turned left and ran 75 meters. She then turned right and ran for 30 meters, and again turned right to run 75 meters. In which direction was she running finally?",
+    "choices": [
+      "South",
+      "North",
+      "West",
+      "East"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Vijendra walks a certain distance, say X meters, from his home towards the west. Then he turns left and walks 23 meters. After that, he turns left and walks 36 meters. Then he turns left again to walk 23 meters. He finally turns left and walks 18 meters to reach his home. Find the value of X.",
+    "choices": [
+      "41",
+      "18",
+      "22",
+      "20"
+    ],
+    "correct": "22",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Zainab is standing facing a particular direction initially. Then she turns 90° clockwise, and after that, she turns 180º anticlockwise. Then she turns 135° anticlockwise. She turns 180° clockwise. Now she is facing the northeast direction. In which direction was Zainab facing initially before taking any turns?",
+    "choices": [
+      "East",
+      "North-West",
+      "West",
+      "South"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "'PSQ' means 'P is to the north of Q.' 'P&Q' means 'P is to the east of Q.' 'P*Q' means 'Q is to the west of P.' 'P%Q' means 'Q is to the south of P.' 'P@QR' means 'P stands exactly in the middle of the horizontal line QR.' 'P!QR' means 'P stands exactly in the middle of the vertical line QR.' Note: 'P6mSQ' means 'P is 6 m to the north of Q' and so on. Find the shortest distance between G and C in the following expression: C12mSS5m*G3m&J6m%K!JT",
+    "choices": [
+      "15 m",
+      "12 m",
+      "10 m",
+      "13 m"
+    ],
+    "correct": "13 m",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "One morning, Chitrashi and Ayaan sit facing each other. If the shadow of Ayaan falls to the left of Chitrashi, then in which direction is Ayaan facing?",
+    "choices": [
+      "North",
+      "East",
+      "South",
+      "West"
+    ],
+    "correct": "West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "At the time of sunset, Lopa and Kritika are sitting facing each other. If the shadow of Lopa falls to the right of Kritika, in which direction is Kritika facing?",
+    "choices": [
+      "South",
+      "North",
+      "East",
+      "West"
+    ],
+    "correct": "North",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Six houses, A, B, C, D, E, and F, are situated in a colony. D is 60 m south of E. F is 40 m south of B. A is 30 m north of E. F is 50 m east of A. C is 50 m west of B. Find the location of C with reference to A.",
+    "choices": [
+      "50 m north",
+      "30 m east",
+      "40 m south",
+      "40 m north"
+    ],
+    "correct": "40 m south",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Reeta is standing facing southeast. First, she turns 135° clockwise. After that, she turns 90° anticlockwise. Then she turns 45° clockwise, followed by a 135° anticlockwise turn. In which direction is she facing now?",
+    "choices": [
+      "South",
+      "South-east",
+      "East",
+      "North-east"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Gaurav exits from the backdoor of his north-facing house and walks 25 m straight, then he takes a left turn and walks 36 m, then he turns left and walks 47 m. He turns left again and walks 36 m. How far and in which direction is he from his house now?",
+    "choices": [
+      "22 m, North",
+      "11 m, North",
+      "22 m, South",
+      "11 m, South"
+    ],
+    "correct": "22 m, South",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Srinija walked 9 km towards the west from her home, then turned towards the south and walked 11 km. Then she walked 13 km towards the east and finally walked 4 km towards the west. How far is Srinija from her initial position?",
+    "choices": [
+      "13 km",
+      "10 km",
+      "11 km",
+      "15 km"
+    ],
+    "correct": "13 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Roshan is facing North. He turns 45° in the counter-clockwise direction. Then he turns 180° in the clockwise direction. He finally turns 90° in the counter-clockwise direction. Which direction is Roshan facing now?",
+    "choices": [
+      "North-west",
+      "South-east",
+      "South-west",
+      "North-east"
+    ],
+    "correct": "North-east",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two persons A and B stand at the same point. A walks 11 km East, takes a right turn and walks 6 km, turns left, and walks 2 km. B walks 3 km towards the West, turns right and walks 7 km, turns right again and walks 16 km. How far is A from B?",
+    "choices": [
+      "12 km",
+      "10 km",
+      "13 km",
+      "15 km"
+    ],
+    "correct": "13 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 12 km towards the West; takes a right turn and walks 5 km. He then walks 5 km towards the starting point and reaches the destination. How far is he from the starting position?",
+    "choices": [
+      "13 km",
+      "10 km",
+      "8 km",
+      "12 km"
+    ],
+    "correct": "8 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two persons A and B stand at the same point. A walks 6 km East, takes a right turn and walks 4 km, turns left, and walks 2 km. B walks 3 km towards the West, turns right and walks 2 km, turns right again and walks 11 km. How far is A from B?",
+    "choices": [
+      "6 km",
+      "12 km",
+      "10 km",
+      "8 km"
+    ],
+    "correct": "10 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 9 km towards the West; takes a right turn and walks 12 km. He then walks 7 km towards the starting point and reaches the destination. How far is he from the starting position?",
+    "choices": [
+      "8 km",
+      "12 km",
+      "13 km",
+      "10 km"
+    ],
+    "correct": "8 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A girl is facing East direction. If she turns 121° in the anti-clockwise direction and 14° in the same direction, which direction will she face now?",
+    "choices": [
+      "North-East",
+      "North-West",
+      "South-West",
+      "South-East"
+    ],
+    "correct": "North-West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man starts from point A and walks 5 km towards the East. He turns right and walks 4 km; turns right again and walks 3 km. He then takes another right and walks 6 km. He walks 6 km towards East; turns right and walks 2 km and turns left and walks 1 km to reach B. How far is A from B?",
+    "choices": [
+      "11 km",
+      "7 km",
+      "9 km",
+      "12 km"
+    ],
+    "correct": "9 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 5 km towards the West from his house. He takes a left turn and walks 10 km and takes another left turn and walks 5 km. In which direction is the house?",
+    "choices": [
+      "East",
+      "West",
+      "North",  
+      "South"
+    ],
+    "correct": "North",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A woman walked 9 km towards East, took a right turn and walked 9 km, took another right turn and walked 4 km. She then walked 14 km towards North and turned right and walked 11 km. She then finally took a right turn and walked 5 km. How far is she from the starting point?",
+    "choices": [
+      "18 km",
+      "20 km",
+      "16 km",
+      "13 km"
+    ],
+    "correct": "16 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A boy is standing in a lawn facing North direction. If the boy turns 65° in an anti-clockwise direction and 155° in a clockwise direction, which direction will he face now?",
+    "choices": [
+      "South",
+      "West",
+      "East",
+      "North"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 5 km towards West; takes a right turn and walks 12 km. He then walked 4 km towards the starting point and reached the destination. How far from the starting position?",
+    "choices": [
+      "8 km",
+      "13 km",
+      "9 km",
+      "11 km"
+    ],
+    "correct": "11 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two persons A and B stand at the same point. A walks 5 km East, takes a right turn walks 4 km and turns left, and walks 3 km. B walks 3 km towards the West, turns right and walks 5 km; turns right again and walks 11 km. How far is A from B?",
+    "choices": [
+      "8 km",
+      "13 km",
+      "11 km",
+      "9 km"
+    ],
+    "correct": "11 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man starts from point A and walks 12 km towards the East. He turns right and walks 4 km; turns right again and walks 8 km. He then takes another right and walks 7 km. He walks 4 km towards East; turns right and walks 3 km and turns left and walks 4 km to reach B. How far is A from B?",
+    "choices": [
+      "7 km",
+      "13 km",
+      "11 km",
+      "9 km"
+    ],
+    "correct": "13 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A girl is facing East direction. If she turns 121° in an anti-clockwise direction and 31° in the clockwise direction, which direction will she face?",
+    "choices": [
+      "South",
+      "East",
+      "West",
+      "North"
+    ],
+    "correct": "North",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two persons A and B stand at the same point. A walks 5 km East, takes a right turn walks 3 km turns left, and walks 4 km. B walks 2 km towards the West; turns right and walks 4 km; turns right again and walks 11 km. How far is A from B?",
+    "choices": [
+      "7 km",
+      "5 km",
+      "9 km",
+      "11 km"
+    ],
+    "correct": "7 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 4 km towards the West; takes a right turn and walks 3 km. He then walked 3 km towards the starting point and reached the destination. How far is he from the starting position?",
+    "choices": [
+      "2 km",
+      "4 km",
+      "1 km",
+      "3 km"
+    ],
+    "correct": "2 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man is standing on a lawn facing North direction. If the man turns 45° in a clockwise direction and 135° in an anti-clockwise direction, which direction will he face now?",
+    "choices": [
+      "South",
+      "North",
+      "West",
+      "East"
+    ],
+    "correct": "West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 8 km towards West; takes a right turn and walks 6 km. He then walks 5 km towards the starting point and reached the destination. How far is he from the starting position?",
+    "choices": [
+      "7 km",
+      "9 km",
+      "11 km",
+      "5 km"
+    ],
+    "correct": "5 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two persons A and B stand at the same point. A walks 7 km East, takes a right turn and walks 5 km and turns left, and walks 6 km. B walks 5 km towards West and turns right and walks 6 km, then finally turns right again and walks 18 km. How far is A from B?",
+    "choices": [
+      "11 km",
+      "12 km",
+      "8 km",
+      "13 km"
+    ],
+    "correct": "11 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A boy walks 4 km towards the West, turns right, and walks 7 km; turns left and walks 22 km and reaches the destination. What is the distance travelled by the boy?",
+    "choices": [
+      "38 km",
+      "36 km",
+      "41 km",
+      "33 km"
+    ],
+    "correct": "33 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A girl starts at point A and walks 6 km towards South, turns right and walks 8 km; turns another left and walks 2 km. She then takes a right turn and walks 8 km; turns left and walks 4 km. She then walks 4 km towards East and turns left and walks 12 km to reach B. How far is A from B?",
+    "choices": [
+      "17 km",
+      "12 km",
+      "13 km",
+      "15 km"
+    ],
+    "correct": "12 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "After walking 8 km, a boy turned left and walked 3 km. He then took a left turn and walked 3 km. If he stood facing North-East direction finally, towards which direction did he walk the first 8 km?",
+    "choices": [
+      "South-West",
+      "South-East",
+      "North-West",
+      "North-East"
+    ],
+    "correct": "North-East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "After walking 5 km, a boy turned right and walked 5 km. He then took a right turn and walked 10 km. If he stood facing East direction finally, towards which direction did he walk the first 5 km?",
+    "choices": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correct": "West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A girl starts at point A and walks 9 km towards South, turns right and walks 3 km; turns another left and walks 2 km. She then takes a right turn and walks 10 km; turns left and walks 1 km. She then walks 5 km towards the East and turns left and walks 12 km to reach B. How far is A from B?",
+    "choices": [
+      "13 km",
+      "8 km",
+      "11 km",
+      "6 km"
+    ],
+    "correct": "8 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A boy walks 19 km towards North, turns right, and walks 6 km; turns right and walks 7 km and reaches the destination. What is the distance travelled by the boy?",
+    "choices": [
+      "38 km",
+      "32 km",
+      "33 km",
+      "36 km"
+    ],
+    "correct": "36 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "After walking 9 km, a boy turned right and walked 6 km. He then took a left turn and walked 12 km. If he stood facing East direction finally, towards which direction did he walk the first 9 km?",
+    "choices": [
+      "South",
+      "West",
+      "East",
+      "North"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A girl is facing North direction. If she turns 72° in the clockwise direction and 63° in the same direction, which direction will she face now?",
+    "choices": [
+      "North-West",
+      "South-East",
+      "South-West",
+      "North-East"
+    ],
+    "correct": "South-East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A man walks 5 km North from his house. He takes a left turn and walks 10 km and takes another left turn and walks 5 km. In which direction should he walk to reach his house?",
+    "choices": [
+      "North",
+      "South",
+      "West",
+      "East"
+    ],
+    "correct": "East",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A woman walked 7 km towards the East, took a right turn and walked 3 km, took another right turn and walked 3 km. She then walked 8 km towards the North, turned right and walked 14 km. She then finally took a right turn and walked 5 km. How far is she from the starting point?",
+    "choices": [
+      "20 km",
+      "13 km",
+      "16 km",
+      "18 km"
+    ],
+    "correct": "18 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Four friends live in a locality. A's house is to the west of B. B's house is to the south of C and C's house is to the east of D. In which direction is B's house as to D?",
+    "choices": [
+      "North-East",
+      "South-East",
+      "North-West",
+      "South-West"
+    ],
+    "correct": "North-West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Village A is to the west of Village B which is to the south of Village C which is to the west of Village D. In what direction is Village A as to Village D?",
+    "choices": [
+      "North-East",
+      "South-East",
+      "North-West",
+      "South-West"
+    ],
+    "correct": "South-West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Y walked 6 m west, turned right, and walked 8 m. What is the shortest distance he needs to travel to go back to his starting point?",
+    "choices": [
+      "8 m",
+      "10 m"
+    ],
+    "correct": "",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X walked 15 m south, turned left 15 m, and turned left and walked for 15 m. How far and in which direction is he from the starting position?",
+    "choices": [
+      "15 m north",
+      "15 m south",
+      "15 m west"
+    ],
+    "correct": "15 m south",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X walks 3 km away from his starting point. He turns right and travels a further 8 km. He turns left and walks ahead, but notices that he is in the opposite direction of what he is supposed to be in. He started by walking towards the east. In which direction is he supposed to go?",
+    "choices": [
+      "North",
+      "East",
+      "West",
+      "South"
+    ],
+    "correct": "West",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "Two cars start from a common point. The 1st car travels north for 10 km, turns left, and goes ahead for 8 km. The 2nd car goes south for 5 km, turns right, and travels 8 km. What is the distance between the cars?",
+    "choices": [
+      "5 km",
+      "8 km",
+      "15 km"
+    ],
+    "correct": "15 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X bicycled 15 km north, then 20 km to his left. At least, how many more km does he need to bicycle to return to his original position?",
+    "choices": [
+      "15 km",
+      "20 km",
+      "25 km"
+    ],
+    "correct": "25 km",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X travels 5 km north, turns right, and covers 7 km. He then turns right and travels 5 km. In which direction is he going?",
+    "choices": [
+      "North",
+      "East",
+      "West",
+      "South"
+    ],
+    "correct": "South",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "If A x B means A is to the south of B; A + B means A is to the north of B; A % B means A is to the east of B; A - B means A is to the west of B; Then in P % Q + R - S, S is in which direction with respect to Q?",
+    "choices": [
+      "South-west",
+      "South-east",
+      "North-west",
+      "North-east"
+    ],
+    "correct": "South-east",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "One morning, X starts walking towards the sun, then takes a right, then takes 2 consecutive lefts. Towards which direction is he walking now?",
+    "choices": [
+      "North",
+      "East",
+      "West",
+      "South"
+    ],
+    "correct": "North",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "A child went 90 feet to the west to look for his father, then he turned right and went 20 feet. After this, he turned right and walked 30 feet to reach his uncle's house. His father was not there. From there he went 100 feet to his south and met his father. How far did he meet his father from the starting point?",
+    "choices": [
+      "140 feet",
+      "110 feet",
+      "120 feet",
+      "100 feet"
+    ],
+    "correct": "100 feet",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
+  },
+  {
+    "question": "X walked from point A to B. He turns right and walks 17 feet. He turns right and walks a distance which is equal to that from A to B. He again turns right and walks 9 feet. How far is he from the starting point?",
+    "choices": [
+      "7 feet",
+      "7.5 feet",
+      "8 feet",
+      "9 feet"
+    ],
+    "correct": "8 feet",
+    "category": "Reasoning",
+    "chapter": "Distance & Direction"
   }
-]
+  ]
